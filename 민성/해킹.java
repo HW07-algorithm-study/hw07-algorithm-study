@@ -6,6 +6,7 @@ public class Main {
     static List<Integer>[] arr;		// 인접 리스트
     static int[] result;	// 신뢰도 배열
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
 
         n = sc.nextInt();
@@ -37,7 +38,8 @@ public class Main {
         }
 
     }
-    public static void BFS(int n) {
+    static void BFS(int n) {
+
         Queue<Integer> q = new LinkedList<>();
         q.add(n);
         visit[n] = true;
