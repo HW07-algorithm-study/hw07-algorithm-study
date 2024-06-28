@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class Solution {
     public static void main(String args[]) throws Exception {
+
         Scanner sc = new Scanner(System.in);
         int T = 10;
-
         for (int tc = 1; tc <= T; tc++) {
             // 배열의 크기 N을 입력받기
             int N = Integer.parseInt(sc.nextLine());
