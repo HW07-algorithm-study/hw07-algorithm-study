@@ -1,3 +1,5 @@
+package 스터디패키지.백준.브루트포스;
+
 import java.util.*;
 import java.io.*;
 
